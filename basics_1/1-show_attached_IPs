@@ -2,4 +2,4 @@
 # Your Bash script displays active IPv4 IPs on the machine.
 
 # Displays all active IPv4 addresses of the machine
-ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}' 
+ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
