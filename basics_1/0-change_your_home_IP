@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# This script configures the server to resolve localhost to 127.0.0.2 and facebook.com to 8.8.8.8
+# The script modifies the /etc/hosts file to achieve this.
 
 # Check that the script is executed as root
 if [ "$EUID" -ne 0 ]; then
