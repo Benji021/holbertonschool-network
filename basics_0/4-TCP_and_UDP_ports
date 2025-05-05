@@ -1,3 +1,3 @@
-#!/bin/bash
-
-sudo ss -tulnp
+#!/usr/bin/env bash
+# This script displays listening ports along with the PID and program name
+netstat -lp 
