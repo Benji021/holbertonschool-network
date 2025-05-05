@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # This script displays listening ports along with the PID and program name
-
-sudo lsof -nP -iTCP -sTCP:LISTEN
+netstat -lp 
